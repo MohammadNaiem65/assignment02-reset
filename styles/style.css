@@ -79,8 +79,7 @@ header hr {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    margin-block: 100px;
-    margin-inline: auto;
+    margin: 200px auto;
 }
 
 .quick-list-left-part {
@@ -118,4 +117,46 @@ header hr {
 
 .quick-list-right-part p {
     margin-block: 20px;
+}
+
+.features {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+}
+
+.features-details {
+    width: 50%;
+}
+
+.feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.features-details div {
+    width: 94%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.features-details div div {
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.features-details div div .detail {
+    margin-top: 10px;
+}
+
+.feature-image {
+    width: 45%;
+    margin-left: 100px;
+}
+
+.feature-image img {
+    width: 100%;
 }
