@@ -34,4 +34,29 @@ header nav h2 {
 .banner {
     width: 80%;
     margin-inline: auto;
+    text-align: center;
+}
+
+.hero-title {
+    margin-top: 100px;
+}
+
+.banner p {
+    margin-top: 30px;
+}
+
+.banner button {
+    padding: 15px 30px;
+    background: #ff900e;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+.banner-img{
+    width: 100%;
 }
