@@ -38,6 +38,10 @@ header hr {
     color: #000;
 }
 
+.option:hover {
+    color: #ff900e;
+}
+
 .banner {
     width: 80%;
     margin-inline: auto;
@@ -64,6 +68,10 @@ header hr {
     display: block;
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: rgba(255, 144, 14, .8);
 }
 
 .center {
@@ -179,6 +187,10 @@ header hr {
     cursor: pointer;
 }
 
+.experience-btn:hover {
+    background-color: rgba(255, 144, 14, .8);
+}
+
 .fact-section {
     width: 80%;
     margin-block: 120px;
@@ -207,6 +219,11 @@ header hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform .7s;
+}
+
+.achievement:hover {
+    transform: scale(1.2);
 }
 
 .achievement img {
@@ -237,4 +254,17 @@ header hr {
 .sponsors img {
     height: 45px;
     margin-bottom: 100px;
+}
+
+.footer {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(255, 144, 14, .1);
+    margin-inline: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
