@@ -173,9 +173,68 @@ header hr {
     padding: 20px 40px;
     border-radius: 4px;
     display: block;
-    /* margin-inline: auto; */
     position: absolute;
     left: 50%;
     bottom: 10px;
     cursor: pointer;
+}
+
+.fact-section {
+    width: 80%;
+    margin-block: 120px;
+    margin-inline: auto;
+}
+
+.fact-detail {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.achievements {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievement {
+    width: 180px;
+    height: 180px;
+    border: 2px solid #FF900E;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievement img {
+    width: 45px;
+    height: 45px;
+}
+
+.achievement .count {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.achievement .achievement-title {
+    color: #727272;
+}
+
+.sponsor-section {
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors img {
+    height: 45px;
+    margin-bottom: 100px;
 }
