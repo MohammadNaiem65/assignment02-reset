@@ -119,6 +119,10 @@ header hr {
     margin-block: 20px;
 }
 
+.feature-section {
+    position: relative;
+}
+
 .features {
     width: 80%;
     margin-inline: auto;
@@ -159,4 +163,19 @@ header hr {
 
 .feature-image img {
     width: 100%;
+}
+
+.experience-btn {
+    background: #ff900e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 4px;
+    display: block;
+    /* margin-inline: auto; */
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    cursor: pointer;
 }
